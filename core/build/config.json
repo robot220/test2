@@ -1,0 +1,34 @@
+{
+  "version": 1485989825042,
+  "versionKey": "YourAppName.currentVersion",
+  "storages": [
+    {
+      "isActive": true,
+      "type": "localStorage",
+      "remove": [
+        "a"
+      ]
+    },
+    {
+      "isActive": true,
+      "type": "test",
+      "remove": [
+        "a"
+      ]
+    },
+    {
+      "isActive": false,
+      "type": "sessionStorage",
+      "remove": [
+        "a"
+      ]
+    },
+    {
+      "isActive": false,
+      "type": "cookie",
+      "remove": [
+        "a"
+      ]
+    }
+  ]
+}

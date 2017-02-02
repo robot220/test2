@@ -1,0 +1,27 @@
+{
+  "versionKey": "YourAppName.currentVersion",
+  "autoCopy": {
+    "use": false,
+    "dirPath": "../projects/test/",
+    "buildPath": "app-version-manager/"
+  },
+  "configPath": "PATH_TO_VERSION_MANAGER_CONFIG_JSON",
+  "storages": [
+    {
+      "isActive": true,
+      "type": "localStorage",
+      "remove": ["a"],
+      "exclude": ["b", "c"]
+    },
+    {
+      "isActive": false,
+      "type": "sessionStorage",
+      "exclude": ["b", "c"]
+    },
+    {
+      "isActive": false,
+      "type": "cookie",
+      "remove": ["a"]
+    }
+  ]
+}

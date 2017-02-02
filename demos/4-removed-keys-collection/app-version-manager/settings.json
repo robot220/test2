@@ -1,0 +1,19 @@
+{
+  "versionKey": "demo4.currentVersion",
+  "autoCopy": {
+    "use": false,
+    "dirPath": "../projects/test/",
+    "buildPath": "app-version-manager/"
+  },
+  "configPath": "app-version-manager/build/config.json",
+  "storageList": [
+    "localStorage",
+    "sessionStorage",
+    "cookie"
+  ],
+  "forceRemoveKeys": [
+    "person1",
+    "person3"
+  ],
+  "exceptedKeys": []
+}

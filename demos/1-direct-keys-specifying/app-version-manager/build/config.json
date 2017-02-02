@@ -1,0 +1,27 @@
+{
+  "version": 1486074940959,
+  "versionKey": "demo1.currentVersion",
+  "storages": [
+    {
+      "isActive": true,
+      "type": "localStorage",
+      "remove": [
+        "a"
+      ]
+    },
+    {
+      "isActive": false,
+      "type": "sessionStorage",
+      "remove": [
+        "b"
+      ]
+    },
+    {
+      "isActive": false,
+      "type": "cookie",
+      "remove": [
+        "c"
+      ]
+    }
+  ]
+}
